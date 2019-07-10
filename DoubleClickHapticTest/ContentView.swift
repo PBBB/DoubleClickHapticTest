@@ -7,10 +7,31 @@
 //
 
 import SwiftUI
+//import CoreHaptics
 
 struct ContentView : View {
+    @State var isLockscreen = false
+    private var hapticsPlayer = HapticsPlayer()
+    
     var body: some View {
-        Text("Hello World")
+        let doubleTapGesture = TapGesture(count: 2)
+            .onEnded { _ in
+                self.isLockscreen.toggle()
+//                if self.isLockscreen{
+                self.hapticsPlayer.playFeedbackGenerator()
+//                }
+        }
+        
+        
+        return ZStack {
+            Color.black
+            if isLockscreen {
+                Image("lockscreen")
+                    .scaledToFit()
+            }
+        }
+        .edgesIgnoringSafeArea(.all)
+        .gesture(doubleTapGesture)
     }
 }
 

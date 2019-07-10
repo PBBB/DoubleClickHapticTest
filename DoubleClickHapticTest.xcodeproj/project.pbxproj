@@ -15,6 +15,7 @@
 		2B9FF09722D591580050C66E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B9FF09522D591580050C66E /* LaunchScreen.storyboard */; };
 		2B9FF0A222D591580050C66E /* DoubleClickHapticTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9FF0A122D591580050C66E /* DoubleClickHapticTestTests.swift */; };
 		2B9FF0AD22D591580050C66E /* DoubleClickHapticTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9FF0AC22D591580050C66E /* DoubleClickHapticTestUITests.swift */; };
+		2BDC941322D63E7E00A882BA /* HapticsPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDC941222D63E7E00A882BA /* HapticsPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2B9FF0A822D591580050C66E /* DoubleClickHapticTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubleClickHapticTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B9FF0AC22D591580050C66E /* DoubleClickHapticTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleClickHapticTestUITests.swift; sourceTree = "<group>"; };
 		2B9FF0AE22D591580050C66E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BDC941222D63E7E00A882BA /* HapticsPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				2B9FF08A22D591560050C66E /* AppDelegate.swift */,
 				2B9FF08C22D591560050C66E /* SceneDelegate.swift */,
 				2B9FF08E22D591560050C66E /* ContentView.swift */,
+				2BDC941222D63E7E00A882BA /* HapticsPlayer.swift */,
 				2B9FF09022D591580050C66E /* Assets.xcassets */,
 				2B9FF09522D591580050C66E /* LaunchScreen.storyboard */,
 				2B9FF09822D591580050C66E /* Info.plist */,
@@ -270,6 +273,7 @@
 				2B9FF08B22D591560050C66E /* AppDelegate.swift in Sources */,
 				2B9FF08D22D591560050C66E /* SceneDelegate.swift in Sources */,
 				2B9FF08F22D591560050C66E /* ContentView.swift in Sources */,
+				2BDC941322D63E7E00A882BA /* HapticsPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +440,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "DoubleClickHapticTest/Preview\\ Content";
+				DEVELOPMENT_TEAM = 23GN8P9Q5M;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DoubleClickHapticTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -455,6 +460,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "DoubleClickHapticTest/Preview\\ Content";
+				DEVELOPMENT_TEAM = 23GN8P9Q5M;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DoubleClickHapticTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
