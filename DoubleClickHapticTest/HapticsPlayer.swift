@@ -84,6 +84,6 @@ class HapticsPlayer {
     
     func playFeedbackGenerator() {
         let feedbackGenerator = UIImpactFeedbackGenerator(style: .medium)
-        feedbackGenerator.impactOccurred(withIntensity: 0.8)
+        feedbackGenerator.impactOccurred(withIntensity: 1.0)
     }
 }
